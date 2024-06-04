@@ -28,9 +28,9 @@ System.out.println() 화면에 정수나 문자, 문자열을 출력하는 실�
 2. 범위 주석 : /*와 */ 사이를 주석처리
 3. 문서 주석 : /**와 **/ 사이를 주석처리 javadoc.exe 명령어로 API 문서 생성하는데 사용된다.
 
-> 예시 코드
+> ex.
 
-```
+```java
 public class Hello {
 	public static void main(String[] args) {
 		System.out.println("안녕, 자바!");
@@ -40,7 +40,7 @@ public class Hello {
 
 > **클래스**
 
-```
+```java
 public class Hello{
 // public class -> 클래스를 정의하기 위한 키워드
 // Hello -> 클래스의 이름
@@ -49,7 +49,7 @@ public class Hello{
 
 > **메서드**
 
-```
+```java
 public static void main(String[] args){ // -> 메세드 시작
 //public static void
 // ->메서드를 실행한 후 반환할 값이 없음을 의미
