@@ -41,6 +41,9 @@ Boolean
 
 ---
 
+![image](https://github.com/hea97/Java_study/assets/168088580/450542a2-8c2d-443e-8427-7f19da5caf74)
+
+
 **박싱(Boxing)**
 기본 자료형의 값을 해당하는 래퍼 클래스 객체로 변환하는 과정.
 
