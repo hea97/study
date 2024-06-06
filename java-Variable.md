@@ -1,6 +1,5 @@
 ### 변수(Variable)
 프로그램은 메모리 공간에 데이터를 보관하고, 여러 메모리 공간을 구분한다.
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d904175b-5ae9-41c6-83e7-56c853092432/90bacf56-8244-40ae-aade-f2cb5c6d6edd/Untitled.png)
 데이터를 담는 상자는 종류가 여러가지이다.
 → 데이터 타입(data type)으로 구분.
 ## 데이터 타입과 리터럴
