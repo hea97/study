@@ -1,3 +1,3 @@
-### Java를 배우면서...
-
-Java 공부를 하면서 알게된 것들을 정리하고 피드백 받는 공간.
+## Back-end_study
+### Python - Django
+### Java - spring boot
