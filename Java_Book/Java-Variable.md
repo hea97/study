@@ -56,6 +56,7 @@ float c = 3.141592F;
 //F는 float 타입이라는 것을 명시한다.
 flaot d = 3.141592;
 ```
+`소스 코드 NumberTypeDemo.java`
 
 # 문자
 
@@ -97,8 +98,9 @@ char d = "A";
 
 ```java
 boolean codition = true;
-// 논리 리터럴 true와 false 중 하
+// 논리 리터럴 true와 false 중 하나
 ```
+`소스 코드 CharBoolDemo.java`
 
 # 변수 사용
 
@@ -222,3 +224,4 @@ double d = (double)3.14f;
 | long | Long.MIN_VALUE | Long.MAX_VALUE |
 | float | Float.MIN_VALUE | Float.MAX_VALUE |
 | double | Double.MIN_VALUE | Double.MAX_VALUE |
+`소스 코드 CastDemo.java`
