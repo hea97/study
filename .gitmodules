@@ -1,0 +1,6 @@
+[submodule "back-end-studies"]
+	path = back-end-studies
+	url = https://github.com/hea97/Back-end_study
+[submodule "data-studies"]
+	path = data-studies
+	url = https://github.com/hea97/Data_study
