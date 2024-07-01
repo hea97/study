@@ -1,6 +1,6 @@
 # 입력 받기
 number = input("정수 입력> ")
-nubmer = int(number)
+number = int(number)
 
 # 조건문 사용
 if unmber > 0:
