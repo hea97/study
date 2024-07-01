@@ -18,7 +18,7 @@ elif 1.0 <= score < 1.75:
   print("불가촉천민")
 elif 0.5 <= score < 1.0:
   print("자벌레")
-elif 0 <= score < 0.5:
+elif 0 < score < 0.5:
   print("플랑크톤")
 elif score == 0:
   print("시대를 앞서가는 혁명의 씨앗")
