@@ -76,9 +76,9 @@ else:
 
 `소스 코드 condition07.py` 
 
-`condition06.py` 와 `condition07.py` 차이점  
-elif 4.2 ≤ socre < 4.5:  
-→ elif 4.2 ≤ score:
+`condition06.py` 와 [`condition07.py`](http://condition07.py) 차이점  
+**elif 4.2 ≤ socre < 4.5:  
+→ elif 4.2 ≤ score:**
 
 # False로 변환되는 값
 
@@ -112,9 +112,9 @@ else:
 
 `소스 코드 pass_keyword.py`
 
-Python의 경우 if 조건문 사이에는 무조건 들여쓰기 4칸 넣고 코드를 작성해야만 구문이 성립된다. 위와 같이 적으면 **IndentationError**발생
+Python의 경우 `if` 조건문 사이에는 무조건 들여쓰기 4칸 넣고 코드를 작성해야만 구문이 성립된다. 위와 같이 적으면 **`IndentationError`**발생
 
-IndentationError는 ‘들여쓰기가 잘못되어 있다’라는 의미, → if 구문 사이에는 어떤 내용이라도 넣어 줘야 함.
+`IndentationError`는 ‘들여쓰기가 잘못되어 있다’라는 의미, → if 구문 사이에는 어떤 내용이라도 넣어 줘야 함.
 
 ---
 
@@ -128,10 +128,10 @@ else:
 
 ---
 
-다른 개발자가“왜 0이 있지?”라는 고민을 조금 덜어주기 위해 **pass** 키워드를 제공.   
+다른 개발자가“왜 0이 있지?”라는 고민을 조금 덜어주기 위해 **`pass`** 키워드를 제공.   
 → pass 뜻 ‘진짜로 아무것도 안함’, ‘곧 개발하겠음’
 
-## raise NotlmplementedError
+## `raise NotlmplementedError`
 
-pass 키워드를 입력해 놨어도 다음날에는 잊어버리는 경우가 많음.  
-raise 키워드와 미구현 상태를 표현하는 NotlmplementedError를 조합해 **raise NotlmplementedError**를 사용하면 “아직 구현하지 않은 부분!”이라는 오류를 강제로 발생시킬 수 있다.
+`pass` 키워드를 입력해 놨어도 다음날에는 잊어버리는 경우가 많음.  
+raise 키워드와 미구현 상태를 표현하는 `NotlmplementedError`를 조합해 **`raise NotlmplementedError`**를 사용하면 “아직 구현하지 않은 부분!”이라는 오류를 강제로 발생시킬 수 있다.
