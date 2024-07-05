@@ -28,15 +28,11 @@ git 명령어 입력 제대로 실행되지 않음.
 
 윈도 제어판 실행 후 시스템→ 고급 시스템 설정 선택, 시스템 속성 창 열기 고급 → 환경 변수
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/12e5074e-9ad2-4526-b144-8a458b2f96cc/d4b1a3b9-4dff-4fe9-8d3f-fa002d4b1787/Untitled.png)
 
 시스템 변수 항목 Path 더블 클릭
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/12e5074e-9ad2-4526-b144-8a458b2f96cc/39ad7a56-940e-4533-937a-729383372a97/Untitled.png)
-
 환경 변수 편집 창에 C:\Program Files\Git\cmd 경로를 추가
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/12e5074e-9ad2-4526-b144-8a458b2f96cc/dfada3a7-1474-4b2c-811c-ebe3e7fdbad5/Untitled.png)
 
 Git 명령어 하나로만 동작 방법과 옵션 같이 사용하여 동작하는 명령어로 나뉨.  
 기본적 Git 독립된 명령어로 구성. but. 독립적인 명령어들 외 하위 명령어 같이 이용 동작 기능을 세분화. → Git 명령어 옵션 지정하면 됨.
