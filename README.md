@@ -1,4 +1,14 @@
-# study
+# TAEHEE/HEA97 TIL
+2024.07.20 ~ ing
 
-## 꾸준히 공부하고 공부했던 것을 올리는 저장소
- data, cloud, git 등등
+## SAA 2024.07.20 set up
+- SAA (AWS Certified Solutions Architect - Associate) 자격증 준비
+## Git
+
+## Python
+
+## Java
+
+## Django
+
+##
