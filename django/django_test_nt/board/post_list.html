@@ -1,16 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <title>게시판</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>간단한 게시판</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .write-btn {
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <h1>게시판</h1>
-    <ul>
-        {% for post in posts %}
-            <li>
-                <a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+    <h1>간단한 게시판</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>제목</th>
+                <th>작성자</th>
+                <th>작성일</th>
+                <th>조회수</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3</td>
+                <td>안녕하세요, 반갑습니다.</td>
+                <td>홍길동</td>
+                <td>2024-07-24</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>두 번째 게시글입니다.</td>
+                <td>김철수</td>
+                <td>2024-07-23</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>첫 번째 게시글입니다.</td>
+                <td>이영희</td>
+                <td>2024-07-22</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button class="write-btn">글쓰기</button>
 </body>
 </html>
