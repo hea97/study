@@ -1,7 +1,6 @@
 # TAEHEE/HEA97 TIL
 2024.07.20 ~ ing  
 생성된 날짜 순으로 작성함
-d
 
 ## SAA 2024.07.20 set up
 - SAA (AWS Certified Solutions Architect - Associate) 자격증 준비
